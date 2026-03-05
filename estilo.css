@@ -37,8 +37,9 @@ h1{
 }
 
 nav{
-    height: 100px;
+    height: 80px;
     background-color: #006ea4;
+    padding: 20px 0;
 }
 
 nav ul{
@@ -46,16 +47,27 @@ nav ul{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
 nav li{
     border: 1px solid white;
-    
+    flex-grow: 1;
+    margin: 0 35px;
 }
 
 nav li a{
     text-decoration: none;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav li :hover{
+    background-color: aliceblue;
+    transition-duration: 2s;
 }
