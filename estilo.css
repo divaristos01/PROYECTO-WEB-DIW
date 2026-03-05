@@ -80,7 +80,7 @@ main{
 aside{
     width: 35.71428571428571%;
     height: 100%;
-    background-color: antiquewhite;
+    background-color: #006ea4;
     float: left;
 }
 
@@ -89,4 +89,17 @@ section{
     width: 64.28571428571429%;
     background-color: aliceblue;
     float: right;
+}
+
+aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+}
+
+aside li a{
+    text-decoration: none;
+    color: black;
 }
