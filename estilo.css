@@ -37,7 +37,7 @@ h1{
 }
 
 nav{
-    height: 80px;
+    height: 60px;
     background-color: #006ea4;
     padding: 20px 0;
 }
@@ -53,7 +53,7 @@ nav ul{
 nav li{
     border: 1px solid white;
     flex-grow: 1;
-    margin: 0 35px;
+    margin: 0 2.5%;
 }
 
 nav li a{
@@ -70,4 +70,23 @@ nav li a{
 nav li :hover{
     background-color: aliceblue;
     transition-duration: 2s;
+}
+
+main{
+    height: 500px;
+    background-color: #9bc2d5;
+}
+
+aside{
+    width: 35.71428571428571%;
+    height: 100%;
+    background-color: antiquewhite;
+    float: left;
+}
+
+section{
+    height: 100%;
+    width: 64.28571428571429%;
+    background-color: aliceblue;
+    float: right;
 }
