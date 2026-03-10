@@ -89,6 +89,10 @@ nav li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#fp a{
+    font-size: 1.5rem;
+}
+
 nav li :hover{
     background-color: aliceblue;
     transition-duration: 2s;
