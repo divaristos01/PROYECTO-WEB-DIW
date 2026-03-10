@@ -76,16 +76,27 @@ nav li :hover{
 }
 
 main{
-    height: 500px;
+    height: 480px;
     background-color: #006ea4;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+main h2, h3{
+    color: black;
+    text-decoration: underline;
+}
+
+main b{
+    color: black;
 }
 
 footer{
     border: 0.1px solid white;
-    clear: both;
     height: 110px;
     background-color: #006ea4;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding-top: 10px;
 }
