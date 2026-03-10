@@ -31,15 +31,18 @@ img{
 }
 
 h1{
-    font-size: 2.5rem;
-    display: inline;
+    font-size: 3rem;
+    display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
     height: 60px;
     background-color: #006ea4;
     padding: 20px 0;
+    border: 0.1px solid white;
 }
 
 nav ul{
@@ -74,50 +77,15 @@ nav li :hover{
 
 main{
     height: 500px;
-    background-color: #9bc2d5;
-}
-
-aside{
-    width: 35.71428571428571%;
-    height: 100%;
     background-color: #006ea4;
-    float: left;
 }
 
-section{
-    height: 100%;
-    width: 64.28571428571429%;
-    background-color: aliceblue;
-    float: right;
-}
-
-aside ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-}
-
-aside li{
-    border: 1px solid white;
-    flex-grow: 1;
-    margin: 2.5%;
-    
-}
-
-aside li a{
-    text-decoration: none;
-    color: rgb(251, 248, 248);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    font-size: 2rem;
-}
-
-section img{
-    max-width: 100%;
-    max-height: 100%;
+footer{
+    border: 0.1px solid white;
+    clear: both;
+    height: 110px;
+    background-color: #006ea4;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
