@@ -17,6 +17,39 @@ header{
     margin: 0;
 }
 
+main{
+    height: 480px;
+    background-color: #006ea4;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+section{
+    height: 100%;
+    width: 64.28571428571429%;
+    background-color: aliceblue;
+    float: right;
+}
+
+aside{
+    width: 35.71428571428571%;
+    height: 100%;
+    background-color: #006ea4;
+    float: left;
+}
+
+footer{
+    border-top: 0.1px solid white;
+    height: 110px;
+    background-color: #006ea4;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* ELEMENTOS INTERNOS */
+
 #logotipo{
     width: 10.71428571428571%;
     display: inline-block;
@@ -30,7 +63,7 @@ img{
     display: block;
 }
 
-h1{
+header h1{
     font-size: 3rem;
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -75,14 +108,6 @@ nav li :hover{
     transition-duration: 2s;
 }
 
-main{
-    height: 480px;
-    background-color: #006ea4;
-    color: white;
-    padding: 10px;
-    font-size: 1.3rem;
-}
-
 main h2, h3{
     color: black;
     text-decoration: underline;
@@ -90,20 +115,6 @@ main h2, h3{
 
 main b{
     color: black;
-}
-
-aside{
-    width: 35.71428571428571%;
-    height: 100%;
-    background-color: #006ea4;
-    float: left;
-}
-
-section{
-    height: 100%;
-    width: 64.28571428571429%;
-    background-color: aliceblue;
-    float: right;
 }
 
 aside ul{
@@ -129,13 +140,4 @@ aside li a{
     align-items: center;
     height: 100%;
     font-size: 2rem;
-}
-
-footer{
-    border-top: 0.1px solid white;
-    height: 110px;
-    background-color: #006ea4;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
 }
