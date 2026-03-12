@@ -1,0 +1,117 @@
+html {
+    width: 1400px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+#diseño {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "cabecera cabecera cabecera cabecera"
+        "menu     menu     menu     menu"
+        "principal principal principal principal"
+        "pie       pie       pie       pie";
+}
+
+header {
+    grid-area: cabecera;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    grid-area: principal;
+    height: 480px;
+    background-color: #006ea4;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+footer {
+    grid-area: pie;
+    border-top: 0.1px solid white;
+    height: 110px;
+    background-color: #006ea4;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#logotipo {
+    width: 10.71428571428571%;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    grid-area: menu;
+    height: 60px;
+    background-color: #006ea4;
+    padding: 20px 0;
+    border-bottom: 0.1px solid white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+}
+
+nav li {
+    border: 1px solid white;
+    flex-grow: 1;
+    margin: 0 2.5%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#bloque {
+    border: 1px solid white;
+    padding: 15px;
+    width: 90%;
+}
