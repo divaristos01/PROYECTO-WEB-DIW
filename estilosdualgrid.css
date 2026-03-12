@@ -84,10 +84,12 @@ nav ul {
     height: 100%;
 }
 
-nav li {
+nav li{
     border: 1px solid white;
-    flex-grow: 1;
-    margin: 0 2.5%;
+    flex-basis: 200px; 
+    flex-grow: 1;     
+    flex-shrink: 1;    
+    margin: 0 25px;
 }
 
 nav li a {
