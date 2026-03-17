@@ -101,6 +101,13 @@ nav li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#volver {
+    order: -1;
+    flex: 0 0 150px;   
+    margin-right: 25px; 
+    background-color: white;
+}
+
 nav li :hover{
     background-color: aliceblue;
     transition-duration: 2s;
