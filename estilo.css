@@ -31,28 +31,6 @@ section{
     float: right;
 }
 
-#info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: start;
-    padding: 15px;
-    gap: 10px;
-}
-
-#bloque {
-    border: 1px solid #006ea4;
-    padding: 0 15px;
-    width: 90%;
-    color: #006ea4;
-    font-size: 1rem;
-}
-
-#bloque li {
-    margin-bottom: 15px;
-    line-height: 1.5;
-}
-
 aside{
     width: 35.71428571428571%;
     height: 100%;
@@ -173,4 +151,51 @@ aside li a{
     align-items: center;
     height: 100%;
     font-size: 2rem;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    padding: 15px;
+    gap: 10px;
+}
+
+#bloque {
+    border: 1px solid #006ea4;
+    padding: 0 15px;
+    width: 90%;
+    color: #006ea4;
+    font-size: 1rem;
+}
+
+#bloque li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+#infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#bloques {
+    border: 1px solid #006ea4;
+    padding: 0 15px 15px;
+    width: 90%;
+    color: #006ea4;
+    font-size: 1.3rem;
+}
+
+#bloques li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+#bloques ul {
+    list-style: disc;
+    padding-left: 20px;
 }
