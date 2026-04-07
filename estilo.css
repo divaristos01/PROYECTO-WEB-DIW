@@ -31,6 +31,28 @@ section{
     float: right;
 }
 
+#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    padding: 15px;
+    gap: 10px;
+}
+
+#bloque {
+    border: 1px solid #006ea4;
+    padding: 0 15px;
+    width: 90%;
+    color: #006ea4;
+    font-size: 1rem;
+}
+
+#bloque li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
 aside{
     width: 35.71428571428571%;
     height: 100%;
@@ -107,6 +129,7 @@ nav li a{
     margin-right: 25px; 
     background-color: white;
 }
+
 #volver a{
     font-size: 1.5em;
 }
