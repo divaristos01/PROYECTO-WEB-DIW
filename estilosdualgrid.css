@@ -11,8 +11,9 @@ body {
 }
 
 #diseño {
+    /* organiza toda la pagina en 4 columnas iguales */
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
         "cabecera cabecera cabecera cabecera"
@@ -61,8 +62,9 @@ img {
 
 header h1 {
     font-size: 2.5rem;
-    display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* para centrar el titulo horizontal y verticalmente */
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -79,21 +81,26 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    /* para poner los botones del nav en fila */
     display: flex;
     height: 100%;
 }
 
-nav li{
+nav li {
     border: 1px solid white;
-    flex-basis: 200px; 
-    flex-grow: 1;     
-    flex-shrink: 1;    
+    /* tamaño base de cada boton */
+    flex-basis: 200px;
+    /* que crezcan para ocupar todo el espacio disponible */
+    flex-grow: 1;
+    /* que puedan encogerse si no hay espacio suficiente */
+    flex-shrink: 1;
     margin: 0 25px;
 }
 
 nav li a {
     text-decoration: none;
     color: black;
+    /* para centrar el texto dentro de cada boton */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,11 +109,13 @@ nav li a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
 #info {
+    /* la primera ocupa el doble que la segunda */
     display: grid;
     grid-template-columns: 2fr 1fr;
+    /* centro el contenido de cada celda horizontalmente */
     justify-items: center;
+    /* centro el contenido de cada celda verticalmente */
     align-items: center;
 }
 
