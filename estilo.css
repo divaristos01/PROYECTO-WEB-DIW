@@ -29,6 +29,7 @@ section{
     width: 64.28571428571429%;
     background-color: aliceblue;
     float: right;
+    /* overflow-y: auto;/*NO SABRÍA SI LO PUEDO UTILIZAR*/
 }
 
 aside{
