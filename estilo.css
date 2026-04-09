@@ -96,6 +96,10 @@ nav li{
     margin: 0 25px;
 }
 
+nav li:first-child{
+    flex-grow: 4;
+}
+
 nav li a{
     text-decoration: none;
     color: black;
