@@ -109,6 +109,12 @@ nav li a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.activo {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
 #info {
     /* la primera ocupa el doble que la segunda */
     display: grid;

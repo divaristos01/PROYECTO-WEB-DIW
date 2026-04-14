@@ -83,7 +83,7 @@ nav li{
 }
 
 #grande{
-    flex-grow: 10;
+    flex-grow: 4;
 }
 
 nav li a{
@@ -96,6 +96,12 @@ nav li a{
     height: 100%;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.activo {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 #volver {
