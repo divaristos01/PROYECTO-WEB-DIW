@@ -161,7 +161,6 @@ main li {
 
 @media (max-width: 768px) {
 
-  /* Corriges el ancho fijo del html */
   html {
     width: 100%;
     font-size: 16px;
@@ -181,7 +180,6 @@ main li {
     font-size: 1.5rem;
   }
 
-  /* Nav: botones en columna */
   nav {
     height: auto;
   }
