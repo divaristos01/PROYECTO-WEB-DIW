@@ -158,3 +158,69 @@ main ul {
 main li {
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+
+  /* Corriges el ancho fijo del html */
+  html {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  header {
+    height: auto;
+    padding: 10px;
+  }
+
+  #logotipo {
+    width: 30%;
+    float: none;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Nav: botones en columna */
+  nav {
+    height: auto;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    margin: 10px;
+  }
+
+  nav li a {
+    font-size: 1.2rem;
+    padding: 6px 0;
+  }
+
+  /* el grid pasa a 1 columna */
+  #info {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Así el cuadro se coloca debajo del texto */
+  #bloque {
+    order: 2;
+  }
+
+  section {
+    order: 1;
+  }
+
+  main {
+    height: auto;
+    padding: 15px;
+  }
+
+  footer {
+    height: auto;
+    padding: 15px;
+  }
+}
