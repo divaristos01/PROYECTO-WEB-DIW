@@ -219,3 +219,84 @@ aside li a{
     list-style: disc;
     padding-left: 20px;
 }
+
+@media (max-width: 768px) {
+
+  html {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  header {
+    height: auto;
+    padding: 10px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  aside {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  section {
+    width: 100%;
+    float: none;
+  }
+
+  #logotipo {
+    width: 30%;
+    float: none;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 10px;
+    flex: 0 0 100%;
+  }
+
+  nav li a {
+    font-size: 1.2rem;
+    padding: 6px 0;
+  }
+
+  #volver{
+    margin: 10px;
+    flex: 0 0 100%;
+  }
+
+  aside ul {
+    flex-direction: row;
+    height: 60px;
+  }
+
+  aside li {
+    margin: 8px;
+    font-size: 1rem;
+  }
+
+  aside li a {
+    font-size: 1rem;
+  }
+
+  #info{
+    gap: 20px;
+  }
+
+}

@@ -130,3 +130,68 @@ nav li a {
     padding: 15px;
     width: 90%;
 }
+
+@media (max-width: 768px) {
+
+  html {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  header {
+    height: auto;
+    padding: 10px;
+  }
+
+  main {
+    height: auto;
+    padding: 15px;
+  }
+
+  footer {
+    height: auto;
+    padding: 15px;
+  }
+
+  #logotipo {
+    width: 30%;
+    float: none;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 10px;
+    flex: 0 0 100%;
+  }
+
+  nav li a {
+    font-size: 1.2rem;
+    padding: 6px 0;
+  }
+
+  /* el grid pasa a 1 columna */
+  #info {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Así el cuadro se coloca debajo del texto */
+  #bloque {
+    order: 2;
+  }
+
+  section {
+    order: 1;
+  }
+}

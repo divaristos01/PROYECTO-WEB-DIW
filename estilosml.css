@@ -171,6 +171,16 @@ main li {
     padding: 10px;
   }
 
+  main {
+    height: auto;
+    padding: 15px;
+  }
+
+  footer {
+    height: auto;
+    padding: 15px;
+  }
+
   #logotipo {
     width: 30%;
     float: none;
@@ -185,16 +195,23 @@ main li {
   }
 
   nav ul {
-    display: block;
+    flex-direction: column;
+
   }
 
   nav li {
     margin: 10px;
+    flex: 0 0 100%;
   }
 
   nav li a {
     font-size: 1.2rem;
     padding: 6px 0;
+  }
+
+  #volver{
+    margin: 10px;
+    flex: 0 0 100%;
   }
 
   /* el grid pasa a 1 columna */
@@ -210,15 +227,5 @@ main li {
 
   section {
     order: 1;
-  }
-
-  main {
-    height: auto;
-    padding: 15px;
-  }
-
-  footer {
-    height: auto;
-    padding: 15px;
   }
 }
