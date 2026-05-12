@@ -182,7 +182,7 @@ main li {
   }
 
   #logotipo {
-    width: 30%;
+    width: 20%;
     float: none;
   }
 
@@ -196,7 +196,6 @@ main li {
 
   nav ul {
     flex-direction: column;
-
   }
 
   nav li {

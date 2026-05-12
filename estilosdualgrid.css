@@ -154,7 +154,7 @@ nav li a {
   }
 
   #logotipo {
-    width: 30%;
+    width: 20%;
     float: none;
   }
 
@@ -172,7 +172,7 @@ nav li a {
 
   nav li {
     margin: 10px;
-    flex: 0 0 100%;
+    flex: 0 0 auto; /*ya que al ser del grid, me cogía con el 100% de altura de su parte de grid y un enlace se me salía*/
   }
 
   nav li a {
